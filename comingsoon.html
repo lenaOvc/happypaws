@@ -1,0 +1,96 @@
+<!-- HTML5 code for Happy Paws Coming Soon Page or comingsoon.html -->
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language. The HTML tag can also be used on it's own -->
+
+<head>
+
+        <meta charset="UTF-8"> <!-- HTML5 charset -->
+        <meta name="viewport" content="width=device-width, initial-scale: 1.0">
+        <meta name="authors" content="Elena Ovcearenco & Ela Moraru Moraru">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style1.css" />
+        <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+        <script src="jscript.js"></script>
+
+        <title>Coming Soon</title>
+        <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+</head>
+
+<body onload="comingSoonFunction()">
+        <div id="coming_soon"> <!-- div container that wraps the whole body of the page into one div-->
+
+                <header> <!-- container for header and navigation bar of Happy Paws website-->
+                        <div>
+                                <div class="logo"> <!-- div container having both logo image and the title of the webpage -->
+                                                <a href="index.html"><img id="img" src="images/logonopaws.png" alt="logo" /></a>
+                                        <h4>Happy Paws</h4>
+                                </div>
+
+                                <nav class="nav"> <!-- navigation bar for website menu -->
+                                        <ul>
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="grooming.html">Grooming</a></li>
+                                                <li><a href="shoppage.html">Shop</a></li>
+                                                <li><a href="specialoffer.html">Special Offers</a></li>
+                                                <li><a href="communitylinks.html">Community Links</a></li>
+                                                <li><a href="contactpage.html">Contact Us </a></li>
+                                                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                                        </ul>
+                                </nav>
+                        </div>
+                </header>
+
+                <div class="content">  <!-- container which stores main content of coming soon page -->
+
+                        <div id="coming_soon_div">
+                                <h1 class="heading_products">Coming soon...</h1> <!-- main heading of the page-->
+                                <img src="images/cats_dogs.png" alt="cats and dogs image" /> <!-- main content of the coming soon page-->
+                        </div>
+                </div>
+
+                <footer> <!-- the footer of the webpage -->
+
+                        <div class="footer"> <!-- container which stores all the elements of the footer of the page -->
+                                <div id="foot1"> <!-- container that stores contact information about the Happy Paws shop-->
+                                        <p id="contact"> <b>Happy Paws</b><br />Blanchardstown Road
+                                                South<br />Blanchardstown</br>Dublin 15<br />+35387665543</p>
+                                        <p id="opening_hours"> <b>Opening Hours:</b><br />Monday-Friday:
+                                                08.00-18.00<br />Saturday: 10.00-16.00<br />Sunday: Closed</p>
+                                </div>
+                                <div id="foot2"> <!-- container that stores buttons linked to social media pages-->
+                                        <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                                        <a href="https://www.google.com/" target="_blank" class="fa fa-google"></a>
+                                        <a href="https://www.instagram.com/" target="_blank"
+                                                class="fa fa-instagram"></a>
+                                        <a href="https://www.snapchat.com/" target="_blank"
+                                                class="fa fa-snapchat-ghost"></a>
+                                </div>
+                                <div id="foot3"> <!-- container that stores the sitemap/ navigation menu of the webpage-->
+                                        <nav id="nav_footer">
+                                                <ul>
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="grooming.html">Grooming</a></li>
+                                                        <li><a href="shoppage.html">Shop</a></li>
+                                                        <li><a href="specialoffer.html">Special Offers</a></li>
+                                                        <li><a href="communitylinks.html">Community Links</a></li>
+                                                        <li><a href="contactpage.html">Contact Us </a></li>
+                                                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                                                        <li id="copyright"> Copyright &copy; Happy Paws</li>
+                                                </ul>
+                                        </nav>
+                                </div>
+                        </div>
+                </footer>
+        </div>
+ 
+        <script src="jquery-3.4.1.min.js" ></script>
+        <script src="toastr.min.js"></script>       
+</body>
+
+</html>

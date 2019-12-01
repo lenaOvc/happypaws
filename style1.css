@@ -1,0 +1,985 @@
+/*Styling of Home Page*/
+
+body,
+html {
+	margin: 0;
+}
+
+#homepage {
+	font-family: 'Kavivanar';
+	background: url(images/catdog1.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+/* header + navigation styling*/
+header,
+footer {
+	min-height: 75px;
+	min-width: 100%;
+	background-color: #996600;
+	clear: both;
+	opacity: 0.8;
+}
+#img {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	height: 55px;
+}
+.logo {
+	color: white;
+	float: left;
+}
+
+.logo h4 {
+	margin-top: 0.7em;
+	margin-left: 0.5em;
+	float: right;
+	font-size: 25px;
+}
+
+.nav {
+	margin-top: 0.5em;
+	font-size: 1.2em;
+	overflow: hidden;
+	float: right;
+	display: block;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li a {
+	text-decoration: none;
+	padding: 0.25em;
+	color: white;
+	font-weight: 700;
+}
+
+.nav a:hover {
+	color: SaddleBrown;
+}
+
+/* content styling*/
+.content {
+	min-width: 100%;
+	min-height: 37em;
+	overflow: hidden;
+	margin: 0;
+}
+.content a {
+	text-decoration: none;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 1em;
+	color: white;
+}
+
+.boxes {
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	margin-left: 30px;
+}
+
+.box {
+	font-size: 1em;
+	text-align: center;
+	background-color: #996600;
+	opacity: 0.70;
+	width: 270px;
+	height: 350px;
+	padding: 10px;
+	margin: 1%;
+	overflow: auto;
+}
+
+/* google icons styling */
+.material-icons {
+	font-size: 3em;
+	color: black;
+}
+
+/* footer styling*/
+#foot1 {
+	width: 85%;
+	padding-left: 0.5em;
+	padding-top: 0.5em;
+	float: left;
+	color: white;
+}
+
+#contact {
+	float: left;
+	margin-left: 200px;
+	text-align: left;
+}
+
+#opening_hours {
+	float: right;
+	text-align: left;
+	padding-right: 10em;
+	padding-left: 10em;
+}
+
+#foot2 {
+	padding-right: 0.5em;
+	padding-top: 0.5em;
+	float: right;
+}
+
+#foot3 {
+	clear: both;
+}
+
+#nav_footer {
+	font-size: 0.8em;
+	overflow: hidden;
+	display: block;
+	text-align: center;
+}
+
+#nav_footer li {
+	display: inline;
+	border-right: 0.05em solid white;
+	padding: 0.2em;
+	color: white;
+}
+
+#nav_footer li a {
+	text-decoration: none;
+	color: white;
+}
+
+.fa {
+	margin: 2px;
+	padding: 2px;
+	font-size: 6px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20%;
+}
+
+.fa:hover {
+	opacity: 0.5;
+}
+
+.fa-facebook {
+	background: SaddleBrown;
+	color: white;
+}
+.fa-google {
+	background: SaddleBrown;
+	color: white;
+}
+.fa-instagram {
+	background: SaddleBrown;
+	color: white;
+}
+.fa-snapchat-ghost {
+	background: SaddleBrown;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/*Styling of Contact us Page*/
+#contact_page,
+#shop_page,
+#coming_soon {
+	background-image: none;
+}
+.main_content {
+	justify-content: center;
+	margin-left: 30px;
+	display: flex;
+}
+#contact_details {
+	text-align: left;
+	font-size: 18px;
+	color: SaddleBrown;
+}
+#form {
+	margin-bottom: 30px;
+	width: 400px;
+}
+#contact_form {
+	color: SaddleBrown;
+}
+#contact_form input[type=text],
+input[type=email],
+input[type=number],
+input[type=message],
+textarea {
+	border: 2px inset grey;
+	border-radius: 6px;
+}
+
+label {
+	font-size: 18px;
+	margin-top: 10px;
+	clear: left;
+	float: left;
+	width: 80px;
+}
+input {
+	width: 270px;
+	height: 25px;
+	margin-top: 10px;
+}
+textarea {
+	width: 270px;
+	height: 100px;
+	margin-top: 10px;
+}
+textarea:hover {
+	background-color: saddlebrown;
+}
+#contact_form #button {
+	width: 80px;
+	padding: 0;
+	margin: 0 0 0 150px;
+	border: 2px inset grey;
+	border-radius: 6px;
+}
+#button:hover {
+	background-color: darkgrey;
+}
+#map {
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+/*Styling of Shop Page*/
+
+#shop_content {
+	justify-content: center;
+	padding-left: 100px;
+}
+.heading_products {
+	color: SaddleBrown;
+	padding: 0;
+}
+#shop_para {
+	text-align: justify;
+	padding-left: 100px;
+	color: SaddleBrown;
+	font-size: 20px;
+	width: 85%;
+}
+#shop_para a {
+	text-decoration: none;
+	color: black;
+}
+.grid-container {
+	display: grid;
+	grid-gap: 5px;
+	width: fit-content;
+	grid-template-columns: 400px 400px 400px;
+	background-color: white;
+	padding-top: 30px;
+	padding: 10px;
+}
+.grid-item {
+	max-width: 100%;
+	background-color: white;
+	border: 2px solid SaddleBrown;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.grid-item img {
+	width: auto;
+	height: 100px;
+}
+div.grid-item:hover {
+	border: 3px solid black;
+}
+
+/*Styling of Coming soon Page*/
+
+#coming_soon_div {
+	position: absolute;
+	padding-left: 80px;
+}
+
+/*Styling of Grooming Page*/
+#booking_form {
+	text-align: right;
+	font-size: 18px;
+	background-color: #996600;
+	float: right;
+	margin-right: 220px;
+	margin-top: 25px;
+	color: white;
+	border: 2px inset grey;
+	border-radius: 25px;
+	height: 500px;
+}
+#booking_form td {
+	padding: 8px;
+}
+#booking_form td {
+	padding: 8px;
+}
+#grooming_text {
+	color: saddlebrown;
+	float: left;
+	margin-left: 300px;
+}
+.paw {
+	width: 20px;
+	height: 20px;
+}
+#booking_form input[type=text],
+input[type=email],
+input[type=number],
+input[type=message],
+textarea {
+	border: 2px inset grey;
+	border-radius: 6px;
+}
+#booking_form input[type=radio] {
+	display: inline;
+	padding: 0%;
+}
+#booking_form button {
+	float: right;
+	width: 60px;
+	height: 30px;
+	border: 2px inset grey;
+	border-radius: 6px;
+}
+#booking_form button:hover,
+input:hover {
+	background-color: saddlebrown;
+}
+
+/*Styling of Community Links Page*/
+#community_page {
+	background-image: url(images/catdog.png);
+	background-size: contain;
+	background-position-x: center;
+	background-repeat: no-repeat;
+}
+
+#content_community {
+	text-align: justify;
+	color: saddlebrown;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content_community .links {
+	list-style: none;
+}
+.links li {
+	text-decoration: none;
+}
+#comm_para {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding: 0;
+	color: SaddleBrown;
+	font-size: 20px;
+	width: 85%;
+}
+
+.grid-container-c {
+	margin-left: 100px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 400px 400px 400px;
+}
+
+.grid-item-c {
+	text-align: left;
+	max-width: 100%;
+	font-size: 18px;
+}
+.grid-item-c a:link {
+	color: black;
+}
+.grid-item-c a:visited {
+	color: SaddleBrown;
+}
+.grid-item-c a:hover {
+	color: goldenrod;
+}
+
+/*Styling of Privacy Policy Page*/
+
+#privacy_policy {
+	background-image: url(images/catdog.png);
+	background-size: contain;
+	background-position-x: center;
+	background-repeat: no-repeat;
+}
+
+#content_privacy {
+	text-align: center;
+	padding-left: 0;
+	color: saddlebrown;
+}
+
+.privacy_para {
+	text-align: justify;
+	padding-left: 100px;
+	color: SaddleBrown;
+	font-size: 20px;
+	width: 85%;
+}
+
+/*Styling of Special Offers Page*/
+#special_offers {
+	background-image: none;
+}
+
+#heading_offers {
+	color: SaddleBrown;
+	padding: 0;
+}
+
+#heading_h1 {
+	color: SaddleBrown;
+	text-align: center;
+}
+
+.grid-container-o {
+	display: grid;
+	grid-gap: 5px;
+	width: fit-content;
+	grid-template-columns: 400px 400px 400px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid-item-o {
+	max-width: 100%;
+	background-color: white;
+	border: 2px solid SaddleBrown;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+.grid-item img {
+	width: auto;
+	height: 100px;
+}
+div.grid-item:hover {
+	border: 3px solid black;
+}
+
+/*media queries*/
+
+/* SMARTPHONES*/
+@media only screen and (min-width: 300px) and (max-width: 425px) {
+	#homepage .header {
+		width: 100%;
+	}
+	.logo {
+		font-size: smaller;
+		float: left;
+	}
+	.logo h4 {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+	#img {
+		margin: 0;
+		height: 45px;
+	}
+	.nav {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	.nav ul {
+		padding: 0;
+		margin: 0;
+	}
+	.nav li a {
+		padding: 7px;
+		font-size: 15px;
+	}
+	.content h1 {
+		padding: 0;
+		margin: 10px;
+		font-size: 25px;
+	}
+	.boxes {
+		display: block;
+		margin: 0;
+		overflow: visible;
+	}
+	.box {
+		font-size: 15px;
+		width: 180px;
+		height: 260px;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#foot1 {
+		display: none;
+	}
+	#nav_footer {
+		font-size: 10px;
+	}
+	#nav_footer ul {
+		margin-top: 10px;
+		padding: 0;
+	}
+	#nav_footer li {
+		border: none;
+	}
+	.material-icons {
+		font-size: 25px;
+	}
+	#grooming_text {
+		width:100%;
+		align-items: center;
+		text-align: center;
+		margin-left: 0;
+		font-size: 15px;
+	}
+	#grooming_page h2 {
+		text-align: center;
+	}
+	#booking_form,
+	#form {
+		display: grid;
+		width:100%;
+		margin: 10px;
+		font-size: 15px;
+		height: 380px;
+	}
+	#booking_form tr {
+		padding: 0px;
+	}
+	#booking_form td {
+		padding: 0px;
+		text-align: left;
+	}
+	#booking_form td input {
+		width: fit-content;
+	}
+	#shop_para {
+		font-size: 15px;
+		margin: 0 20px 0px 20px;
+		padding: 0;
+	}
+	#shop_content,
+	.main_content {
+		margin: 0;
+		padding: 0;
+	}
+	.grid-container {
+		display: inherit;
+		padding: 0;
+	}
+	.grid-item {
+		font-size: 15px;
+	}
+	#community_page {
+		background-image: none;
+	}
+
+	.heading_products {
+		font-size: 30px;
+		margin: 10px;
+		padding: 0;
+	}
+	#comm_para,
+	#privacy_para {
+		font-size: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	.grid-container-c {
+		display: inherit;
+		padding: 0;
+		margin: 0;
+	}
+	#map {
+		display: none;
+	}
+	#form {
+		height: fit-content;
+	}
+	.main_content {
+		height: auto;
+	}
+	#contact_details {
+		font-size: 15px;
+	}
+    #contact_form #button {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#coming_soon_div {
+		position: relative;
+		padding-left: 0;
+	}
+	#coming_soon_div img {
+		width: 100%;
+	}
+	#content_offers {
+		padding: 0;
+		margin: 0;
+	}
+	.grid-container-o {
+		display: inherit;
+		padding: 0;
+		margin: 0;
+	}
+	.grid-item-o {
+		font-size: 15px;
+	}
+}
+
+/* TABLETS*/
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+	.logo {
+		margin: 0;
+		padding: 0;
+		font-size: smaller;
+		float: left;
+	}
+	.logo h4 {
+		font-size: 20px;
+		margin: 10px 0px 0px 10px;
+	}
+	#img {
+		margin: 5px 0px 0px 5px;
+		height: 35px;
+	}
+	.nav {
+		margin: 0;
+		padding: 0;
+		float: right;
+		font-size: small;
+	}
+	.nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	.nav li a {
+		padding: 5px;
+		font-size: 15px;
+	}
+	.content h1 {
+		padding: 0;
+		margin: 10px;
+		font-size: 25px;
+	}
+	.boxes {
+		display: flex;
+		margin: 0;
+		overflow: visible;
+	}
+	.box {
+		font-size: 15px;
+		width: 200px;
+		height: 290px;
+		padding: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.material-icons {
+		font-size: 25px;
+	}
+	.footer {
+		height: 120px;
+	}
+	#foot1 {
+		width: 80%;
+	}
+	#contact {
+		font-size: small;
+		float: left;
+		margin: 0 0 0 160px;
+	}
+	#opening_hours {
+		font-size: small;
+		float: right;
+		padding: 0 0 0 0;
+		margin: 0 0 0 10px;
+	}
+	#foot2 {
+		font-size: 16px;
+		padding: 8px 8px 0 0;
+	}
+	#nav_footer {
+		font-size: 12px;
+	}
+	#nav_footer ul {
+		padding-left: 0;
+	}
+	#nav_footer li {
+		border-right: 0.05em solid white;
+		padding: 0 3px 0 3px;
+	}
+	#nav_footer li a {
+		text-decoration: none;
+		color: white;
+	}
+	#booking_form {
+		display: inline-block;
+		font-size: 15px;
+		margin: 10px 30px 0 0;
+		width: 40%;
+		padding: 20px;
+	}
+	#grooming_text {
+		text-align: center;
+		font-size: 15px;
+		margin: 0;
+		width: 50%;
+	}
+	#booking_form td {
+		padding: 0px;
+		text-align: left;
+	}
+	#booking_form td input {
+		width: fit-content;
+	}
+	#booking_form td select {
+		align-items: flex-start;
+	}
+	#shop_para {
+		font-size: 15px;
+		margin: 0 50px 0px 50px;
+		padding-left: 0;
+	}
+	#shop_content {
+		margin-right: 0;
+		display: contents;
+		align-content: center;
+		padding: 0;
+	}
+	.grid-container,
+	.grid-container-o {
+		grid-template-columns: 245px 245px 245px;
+	}
+	.grid-item,
+	.grid-item-o {
+		font-size: 15px;
+	}
+	#content_offers {
+		padding: 0;
+		margin: 0;
+	}
+	#comm_para,
+	#privacy_para {
+		font-size: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	.grid-container-c {
+		margin: 0;
+		grid-template-columns: 240px 240px 240px;
+		padding: 0;
+	}
+	.grid-item-c {
+		font-size: 15px;
+	}
+	.main_content {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	#contact_details {
+		margin: 0 20px 0 20px;
+		text-align: left;
+		font-size: 15px;
+	}
+#contact_form label {
+		font-size: 15px;
+	}
+	#form {
+		margin: 0 20px 0 20px;
+		padding: 0;
+		width: 50%;
+	}
+#contact_form input,
+#contact_form label {
+		margin-top: 2px;
+		margin-top: 0px;
+	}
+	#map {
+		width: 200px;
+		height: 200px;
+		object-fit: contain;
+		margin-right: 25%;
+	}
+	input {
+		font-size: 15px;
+		width: 270px;
+		height: 25px;
+		margin-top: 10px;
+	}
+	#coming_soon_div {
+		position: relative;
+		padding-left: 0;
+	}
+	#coming_soon_div img {
+		width: 100%;
+	}
+}
+
+/* LAPTOP / DESKTOP */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.logo {
+		margin: 0;
+		padding: 0;
+	}
+	.logo h4 {
+		margin: 20px 0px 0px 7px;
+		font-size: 15px;
+	}
+	#img {
+		margin: 10px 0 0 7px;
+		height: 40px;
+	}
+	.nav {
+		margin: 0;
+		padding: 0;
+		float: right;
+		font-size: 15px;
+	}
+	.nav ul {
+		display: inline-block;
+		margin: 20px 5px 0 0;
+		padding: 0;
+	}
+	.nav li a {
+		padding: 2px;
+	}
+	.content h1 {
+		margin: 25px;
+		padding: 0;
+		font-size: 25px;
+	}
+	.boxes {
+		display: flex;
+		margin: 0;
+	}
+	.box {
+		width: 250px;
+		height: 340px;
+		padding: 15px;
+		margin: 5px;
+	}
+	.footer {
+		height: 120px;
+	}
+	#foot1 {
+		width: fit-content;
+		float: left;
+	}
+	#contact {
+		font-size: small;
+		float: left;
+		margin: 0 0 0 160px;
+	}
+	#opening_hours {
+		font-size: small;
+		padding: 0 0 0 80px;
+		margin: 0;
+	}
+	#foot2 {
+		float: right;
+		margin: 5px 5px 0 0;
+		padding: 0;
+	}
+	#nav_footer {
+		font-size: 12px;
+	}
+	#nav_footer ul {
+		padding-left: 0;
+	}
+	#nav_footer li {
+		border-right: 1px solid white;
+		padding: 0 3px 0 3px;
+	}
+	#nav_footer li a {
+		text-decoration: none;
+		color: white;
+	}
+	#booking_form {
+		margin: 20px;
+		display: inline-block;
+	}
+	#grooming_text {
+		width: 40%;
+		margin: 0 0 0 50px;
+	}
+	#shop_para {
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#shop_content {
+		width: 100%;
+		align-content: center;
+		padding: 0;
+	}
+	.grid-container,
+	.grid-container-o,
+	.grid-container-c {
+		padding: 10px 0 0 0;
+		grid-template-columns: 320px 320px 320px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.grid-item,
+	.grid-item-o,
+	.grid-container-c {
+		object-fit: inherit;
+		font-size: 15px;
+	}
+	#content_offers {
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.heading_products{
+		font-size: 25px;
+		margin: 25px;
+		padding: 0;
+	}
+	#comm_para,
+	#privacy_para {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 15px;
+		padding: 0;
+	}
+	#contact_page label {
+		margin-top: 3px;
+	}
+	#contact_form input {
+		margin-top: 3px;
+	}
+	#contact_form label {
+		margin-top: 0px;
+	}
+	#map {
+		margin: 30px 30px 0 0;
+	}
+	#coming_soon_div {
+		position: relative;
+		padding-left: 0;
+	}
+	#coming_soon_div img {
+		width: 100%;
+	}
+}
