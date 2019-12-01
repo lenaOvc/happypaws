@@ -274,30 +274,6 @@ textarea:hover {
 	text-decoration: none;
 	color: black;
 }
-.grid-container {
-	display: grid;
-	grid-gap: 5px;
-	width: fit-content;
-	grid-template-columns: 400px 400px 400px;
-	background-color: white;
-	padding-top: 30px;
-	padding: 10px;
-}
-.grid-item {
-	max-width: 100%;
-	background-color: white;
-	border: 2px solid SaddleBrown;
-	padding: 10px;
-	font-size: 20px;
-	text-align: center;
-}
-.grid-item img {
-	width: auto;
-	height: 100px;
-}
-div.grid-item:hover {
-	border: 3px solid black;
-}
 
 /*Styling of Coming soon Page*/
 
@@ -449,7 +425,8 @@ input:hover {
 	text-align: center;
 }
 
-.grid-container-o {
+.grid-container-o,
+.grid-container {
 	display: grid;
 	grid-gap: 5px;
 	width: fit-content;
@@ -458,7 +435,8 @@ input:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
-.grid-item-o {
+.grid-item-o,
+.grid-item {
 	max-width: 100%;
 	background-color: white;
 	border: 2px solid SaddleBrown;
@@ -568,7 +546,9 @@ div.grid-item:hover {
 	#booking_form td input {
 		width: fit-content;
 	}
-	#shop_para {
+	#shop_para,
+	#comm_para,
+	.privacy_para {
 		font-size: 15px;
 		margin: 0 20px 0px 20px;
 		padding: 0;
@@ -585,20 +565,13 @@ div.grid-item:hover {
 	.grid-item {
 		font-size: 15px;
 	}
-	#community_page {
+	#community_page{
 		background-image: none;
 	}
 
 	.heading_products {
 		font-size: 30px;
 		margin: 10px;
-		padding: 0;
-	}
-	#comm_para,
-	#privacy_para {
-		font-size: 15px;
-		margin-left: auto;
-		margin-right: auto;
 		padding: 0;
 	}
 	.grid-container-c {
@@ -644,7 +617,7 @@ div.grid-item:hover {
 }
 
 /* TABLETS*/
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 425px) and (max-width: 768px) {
 	.logo {
 		margin: 0;
 		padding: 0;
@@ -836,7 +809,7 @@ div.grid-item:hover {
 }
 
 /* LAPTOP / DESKTOP */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 	.logo {
 		margin: 0;
 		padding: 0;
